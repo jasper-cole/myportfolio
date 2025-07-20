@@ -1,0 +1,35 @@
+header{
+    background-color:lightslategrey;
+    text-align: center;
+}
+header img{
+    width: 200px;
+    height: 200px;
+    margin-top: 2em;
+    border-radius: 50%;
+}
+header nav a{
+   
+    text-decoration: none; 
+    color: black;
+    margin-right: 1rem;
+}
+header nav a:hover{
+    text-decoration:underline;
+
+}
+section {
+    max-width: 800px;
+    padding: 2rem;
+    margin: auto; background-color:azure
+}
+#project{
+    background-color: aliceblue;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.288);
+    padding: 1rem; 
+}
+.projects-list{
+    display: flex;
+    flex-direction: column; 
+    gap: 1rem;
+}
